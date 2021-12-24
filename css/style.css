@@ -1,0 +1,212 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color:#F1F1F1;
+}
+.logo-brand{
+    padding:10px;
+}
+.header-bg{
+    background-color:#FB6090;
+}
+.nav-link{
+    color:#fff !important;
+}
+.section{
+    margin-top:80px;
+}
+.navigation{
+    font-size:18px;
+    font-weight:bold;
+    padding:15px;
+}
+.new-arrival{
+    background-color: rgba(251, 96, 144, 0.5);
+    padding-bottom:16px;
+    /* filter: blur(4px); */
+
+}
+.inner-offer{
+    font-weight:bold;
+    font-size:24px;
+}
+.arrival-img{
+    height:250px;
+    border-radius:25px;
+}
+.login-control::placeholder{
+    color:#fff !important;
+}
+
+/***sign-up styles**/
+/* .signup{
+    margin-top:100px;
+    margin-bottom:100px;
+} */
+img.d-block.arrival-img.mx-auto.img-fluid {
+    height: 180px;
+}
+button.primary-btn.view-more{
+    margin-top:28px !important;
+}
+/***home page design***/
+.deals-day:hover{
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22,1);
+    cursor:pointer;
+}
+.content-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0;
+    background:rgba(0,0,0,0.7);
+    width:100%;
+    height:100%;
+    transition: all 0.4s ease-out 0s;
+    cursor:pointer;
+    border-bottom:inherit !important;
+}
+.card-overlay:hover .content-overlay{
+    opacity:1;
+    z-index: 2;
+}
+.content-details{
+    position:absolute;
+    text-align:center;
+    padding-left:15px;
+    padding-right:15px;
+    height:15px;
+    width:100%;
+    top:50%;
+    left:50%;
+    opacity:0;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out 0s;
+    color:#fff;
+}
+.card-overlay:hover .content-details{
+top:50%;
+left:50%;
+opacity:1;
+z-index:5;
+}
+.fadeIn-top{
+    top: 20%;
+}
+.price-details{
+z-index: 1 !important;
+}
+.btn-white{
+    border:8px solid #FB6090;
+    background-color:#fff;
+    color:#000000;
+    padding:10px;
+    font-weight:bold;
+    cursor:pointer;
+    font-size:14px;
+}
+.review-card{
+    background: linear-gradient( 
+        336deg, rgb(244 143 177), rgba(255,0,0,0) 50.71%), linear-gradient( 
+        127deg, rgb(155 203 101), rgba(0,255,0,0) 50.71%), linear-gradient( 
+        217deg, rgb(251 96 144), rgba(0,0,255,0) 50.71%);
+        border:none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.content-hr{
+    width:60px;
+    border:3px solid #000000;
+    background-color:#000000;
+}
+/****product details***/
+.preview-img{
+    margin-bottom:20px;
+    border: 1px solid #fb6090 !important;
+}
+.preview-img > img{
+    width:150px;
+    height:150px;
+    margin:0 auto;
+}
+.preview-original{
+    height: 664px;
+    border: 1px solid #fb6090 !important;
+}
+.preview-original > img{
+    height:600px;
+}
+.product-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.ruppe{
+    color: #FB6090;
+    font-weight: bold;
+    font-size: 32px;
+}
+.taxes,
+.more-details{
+    font-size:16px;
+    color:#000000;
+    margin-bottom:10px;
+}
+.offer-btn{
+    background-color: green;
+    border: 1px solid green;
+    padding: 15px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.cart{
+    background-color: #FB6090;
+    border: 1px solid #FB6090;
+    box-shadow: 2px 3px #6a686838;
+    padding: 15px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.buy-now{
+    background-color: green;
+    border: 1px solid green;
+    box-shadow: 2px 3px #6a686838;
+    padding: 15px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 10px; 
+}
+.input-control{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline:none;
+}
+.list-group-item{
+    background-color: rgb(0 0 0 / 8%) !important;
+    border: 1px solid rgba(0,0,0,.125) !important;
+}
+/***product user details***/
+.delivery-address{list-style-type: none;}
+#accordion .card-header{
+    background-color: #b4a6aa !important;
+    margin-top: -1px;
+    /* border: 1px solid #3333 !important;
+     */
+}
+/***about us***/
+.about-us{position: fixed;
+bottom: 0px;
+width: 100%;}
+.section-aboutus{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.about-us-bg{
+    height: 100vh !important;
+}
